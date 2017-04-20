@@ -7,7 +7,6 @@ import StoryblokVue from 'storyblok-vue'
 import Root from './components/Root.vue'
 import Headline from './components/Headline.vue'
 
-
 Vue.component('root', Root)
 Vue.component('headline', Headline)
 Vue.use(StoryblokVue)
