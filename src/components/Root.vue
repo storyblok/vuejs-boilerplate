@@ -1,6 +1,8 @@
 <template>
   <div v-editable="blok">
-    <component v-for="item in blok.body" :blok="item" :is="item.component"></component>
+  <template v-for="item in blok.body">
+    <component  :blok="item" :is="item.component"></component>
+  </template>
   </div>
 </template>
 
