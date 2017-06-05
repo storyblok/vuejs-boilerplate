@@ -15,7 +15,7 @@ If you want to use your server or have already an existing project in which you 
 The most efficient way to start a storyblok project as a developer would be our [Command Line Interface](https://www.storyblok.com/docs/Guides/command-line-interface).
 
 ```
-npm i storyblok-cli -g
+npm i storyblok -g
 storyblok
 ```
 
