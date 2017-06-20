@@ -5,10 +5,10 @@ import App from './App'
 import router from './router'
 import StoryblokVue from 'storyblok-vue'
 import Root from './components/Root.vue'
-import Headline from './components/Headline.vue'
+import Teaser from './components/Teaser.vue'
 
 Vue.component('root', Root)
-Vue.component('headline', Headline)
+Vue.component('teaser', Teaser)
 Vue.use(StoryblokVue)
 
 /* eslint-disable no-new */

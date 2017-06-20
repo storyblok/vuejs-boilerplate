@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Index from 'components/Index'
+import Hello from 'components/Hello'
 
 Vue.use(Router)
 
@@ -12,8 +12,7 @@ export default new Router({
     },
     {
       path: '/:slug',
-      name: 'Index',
-      component: Index
+      component: Hello
     }
   ]
 })
