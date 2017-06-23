@@ -17,7 +17,7 @@
     },
     created () {
       window.storyblok.init({
-        accessToken: 'Iw3XKcJb6MwkdZEwoQ9BCQtt'
+        accessToken: 'akYA0RB4BzCPUoRfjIvUdQtt'
       })
 
       window.storyblok.on('change', () => {
@@ -52,3 +52,23 @@
   }
 </script>
 
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+h1, h2 {
+  font-weight: normal;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+a {
+  color: #42b983;
+}
+</style>

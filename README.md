@@ -60,7 +60,7 @@ npm run build --report
 - `/src/components/`
   All your layouts and components at one space - if you add a new or change an existing [Vue](https://vuejs.org/) component (`.vue`)
   the webpack build will trigger an instant reload for you in the browser - each component is a representation of a storyblok component.
-  If you create a headline component in storyblok - make sure to create a `Headline.vue` as well and register it in the `main.js` - so the setup knows about the component.
+  If you create a Teaser component in storyblok - make sure to create a `Teaser.vue` as well and register it in the `main.js` - so the setup knows about the component.
 - `/static/`
   The place to put your static files.
 
