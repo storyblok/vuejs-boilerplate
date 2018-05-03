@@ -4,10 +4,10 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import StoryblokVue from 'storyblok-vue'
-import Root from './components/Root.vue'
+import Page from './components/Page.vue'
 import Teaser from './components/Teaser.vue'
 
-Vue.component('root', Root)
+Vue.component('page', Page)
 Vue.component('teaser', Teaser)
 Vue.use(StoryblokVue)
 
