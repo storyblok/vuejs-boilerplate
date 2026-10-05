@@ -1,3 +1,7 @@
+> [!WARNING]
+> This repository is no longer maintained.
+> For a current Vue + Storyblok starter, use [blueprint-core-vue](https://github.com/storyblok/blueprint-core-vue).
+
 <p align="center">
   <h1 align="center">vuejs-boilerplate for Storyblok</h1>
   <p align="center">A <a href="https://www.storyblok.com" target="_blank">Storyblok</a> boilerplate with vuejs to simply start your website with us.</p>
